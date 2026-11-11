@@ -4,10 +4,6 @@
 
 Kotlin + Jetpack Compose 製。ESP32 搭載のニキシー管時計と BLE で通信して操作します。アプリの UI は日本語です。
 
-| スキャン・接続 | 操作画面 |
-|---|---|
-| <img src="docs/screenshots/scan.png" width="300"> | <img src="docs/screenshots/control.png" width="300"> |
-
 ---
 
 ## 概要
@@ -161,7 +157,6 @@ Android 12 以降では「付近のデバイス」権限が必要です。端末
 │       └── res/
 │           ├── values/strings.xml     # 表示文言（日本語）
 │           └── mipmap-*/              # アプリアイコン
-├── docs/screenshots/                  # README 用スクリーンショット
 ├── gradle/libs.versions.toml          # 依存関係のバージョン一覧
 ├── 日文化改造说明.md                    # 日本語化の作業記録（中国語）
 └── README.md
